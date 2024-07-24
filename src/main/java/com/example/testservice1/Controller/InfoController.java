@@ -87,5 +87,4 @@ public class InfoController {
             return new ResponseEntity<>("Request failed: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
     }
